@@ -1,0 +1,537 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="96.795" tests="5" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="21"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\Admin\eclipse-workspace\elpaisautomation\target\test-classes;C:\Users\Admin\eclipse-workspace\elpaisautomation\target\classes;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-java\4.18.1\selenium-java-4.18.1.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-api\4.18.1\selenium-api-4.18.1.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.18.1\selenium-chrome-driver-4.18.1.jar;C:\Users\Admin\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.18.1\selenium-chromium-driver-4.18.1.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-json\4.18.1\selenium-json-4.18.1.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.18.1\selenium-manager-4.18.1.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v120\4.18.1\selenium-devtools-v120-4.18.1.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v121\4.18.1\selenium-devtools-v121-4.18.1.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v122\4.18.1\selenium-devtools-v122-4.18.1.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.18.1\selenium-devtools-v85-4.18.1.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.18.1\selenium-edge-driver-4.18.1.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.18.1\selenium-firefox-driver-4.18.1.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-http\4.18.1\selenium-http-4.18.1.jar;C:\Users\Admin\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.18.1\selenium-ie-driver-4.18.1.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.18.1\selenium-remote-driver-4.18.1.jar;C:\Users\Admin\.m2\repository\com\google\guava\guava\33.0.0-jre\guava-33.0.0-jre.jar;C:\Users\Admin\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\Admin\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\Admin\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\Admin\.m2\repository\org\checkerframework\checker-qual\3.41.0\checker-qual-3.41.0.jar;C:\Users\Admin\.m2\repository\com\google\errorprone\error_prone_annotations\2.23.0\error_prone_annotations-2.23.0.jar;C:\Users\Admin\.m2\repository\com\google\j2objc\j2objc-annotations\2.8\j2objc-annotations-2.8.jar;C:\Users\Admin\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.23.1-alpha\opentelemetry-semconv-1.23.1-alpha.jar;C:\Users\Admin\.m2\repository\io\opentelemetry\opentelemetry-api\1.35.0\opentelemetry-api-1.35.0.jar;C:\Users\Admin\.m2\repository\io\opentelemetry\opentelemetry-context\1.35.0\opentelemetry-context-1.35.0.jar;C:\Users\Admin\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.35.0\opentelemetry-exporter-logging-1.35.0.jar;C:\Users\Admin\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.35.0\opentelemetry-sdk-common-1.35.0.jar;C:\Users\Admin\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.35.0\opentelemetry-sdk-extension-autoconfigure-spi-1.35.0.jar;C:\Users\Admin\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.35.0\opentelemetry-sdk-extension-autoconfigure-1.35.0.jar;C:\Users\Admin\.m2\repository\io\opentelemetry\opentelemetry-api-events\1.35.0-alpha\opentelemetry-api-events-1.35.0-alpha.jar;C:\Users\Admin\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.35.0\opentelemetry-sdk-trace-1.35.0.jar;C:\Users\Admin\.m2\repository\io\opentelemetry\opentelemetry-extension-incubator\1.35.0-alpha\opentelemetry-extension-incubator-1.35.0-alpha.jar;C:\Users\Admin\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.35.0\opentelemetry-sdk-1.35.0.jar;C:\Users\Admin\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.35.0\opentelemetry-sdk-metrics-1.35.0.jar;C:\Users\Admin\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.35.0\opentelemetry-sdk-logs-1.35.0.jar;C:\Users\Admin\.m2\repository\net\bytebuddy\byte-buddy\1.14.12\byte-buddy-1.14.12.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-os\4.18.1\selenium-os-4.18.1.jar;C:\Users\Admin\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.18.1\selenium-safari-driver-4.18.1.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-support\4.18.1\selenium-support-4.18.1.jar;C:\Users\Admin\.m2\repository\io\github\bonigarcia\webdrivermanager\5.6.3\webdrivermanager-5.6.3.jar;C:\Users\Admin\.m2\repository\org\slf4j\slf4j-api\2.0.10\slf4j-api-2.0.10.jar;C:\Users\Admin\.m2\repository\com\github\docker-java\docker-java\3.3.4\docker-java-3.3.4.jar;C:\Users\Admin\.m2\repository\com\github\docker-java\docker-java-core\3.3.4\docker-java-core-3.3.4.jar;C:\Users\Admin\.m2\repository\com\github\docker-java\docker-java-api\3.3.4\docker-java-api-3.3.4.jar;C:\Users\Admin\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.3\jackson-annotations-2.10.3.jar;C:\Users\Admin\.m2\repository\commons-io\commons-io\2.13.0\commons-io-2.13.0.jar;C:\Users\Admin\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.3\jackson-databind-2.10.3.jar;C:\Users\Admin\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.3\jackson-core-2.10.3.jar;C:\Users\Admin\.m2\repository\org\bouncycastle\bcpkix-jdk18on\1.76\bcpkix-jdk18on-1.76.jar;C:\Users\Admin\.m2\repository\org\bouncycastle\bcprov-jdk18on\1.76\bcprov-jdk18on-1.76.jar;C:\Users\Admin\.m2\repository\org\bouncycastle\bcutil-jdk18on\1.76\bcutil-jdk18on-1.76.jar;C:\Users\Admin\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\Admin\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.3.4\docker-java-transport-httpclient5-3.3.4.jar;C:\Users\Admin\.m2\repository\com\github\docker-java\docker-java-transport\3.3.4\docker-java-transport-3.3.4.jar;C:\Users\Admin\.m2\repository\net\java\dev\jna\jna\5.13.0\jna-5.13.0.jar;C:\Users\Admin\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\Admin\.m2\repository\org\apache\commons\commons-lang3\3.14.0\commons-lang3-3.14.0.jar;C:\Users\Admin\.m2\repository\org\apache\commons\commons-compress\1.25.0\commons-compress-1.25.0.jar;C:\Users\Admin\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.2.1\httpclient5-5.2.1.jar;C:\Users\Admin\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.2\httpcore5-5.2.jar;C:\Users\Admin\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.2\httpcore5-h2-5.2.jar;C:\Users\Admin\.m2\repository\org\testng\testng\7.9.0\testng-7.9.0.jar;C:\Users\Admin\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\Admin\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\Admin\.m2\repository\com\squareup\okhttp3\okhttp\4.12.0\okhttp-4.12.0.jar;C:\Users\Admin\.m2\repository\com\squareup\okio\okio\3.6.0\okio-3.6.0.jar;C:\Users\Admin\.m2\repository\com\squareup\okio\okio-jvm\3.6.0\okio-jvm-3.6.0.jar;C:\Users\Admin\.m2\repository\org\jetbrains\kotlin\kotlin-stdlib-common\1.9.10\kotlin-stdlib-common-1.9.10.jar;C:\Users\Admin\.m2\repository\org\jetbrains\kotlin\kotlin-stdlib-jdk8\1.8.21\kotlin-stdlib-jdk8-1.8.21.jar;C:\Users\Admin\.m2\repository\org\jetbrains\kotlin\kotlin-stdlib\1.8.21\kotlin-stdlib-1.8.21.jar;C:\Users\Admin\.m2\repository\org\jetbrains\annotations\13.0\annotations-13.0.jar;C:\Users\Admin\.m2\repository\org\jetbrains\kotlin\kotlin-stdlib-jdk7\1.8.21\kotlin-stdlib-jdk7-1.8.21.jar;C:\Users\Admin\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;"/>
+    <property name="java.vm.vendor" value="Eclipse Adoptium"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://adoptium.net/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="21"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Users\Admin\Downloads\eclipse-java-2024-12-R-win32-x86_64\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.5.v20241023-1957\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\Admin\AppData\Local\Temp\surefire9881164757209237146\surefirebooter-20260215001451774_3.jar C:\Users\Admin\AppData\Local\Temp\surefire9881164757209237146 2026-02-15T00-14-51_466-jvmRun1 surefire-20260215001451774_1tmp surefire_0-20260215001451774_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\Admin\eclipse-workspace\elpaisautomation\target\test-classes;C:\Users\Admin\eclipse-workspace\elpaisautomation\target\classes;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-java\4.18.1\selenium-java-4.18.1.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-api\4.18.1\selenium-api-4.18.1.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.18.1\selenium-chrome-driver-4.18.1.jar;C:\Users\Admin\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.18.1\selenium-chromium-driver-4.18.1.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-json\4.18.1\selenium-json-4.18.1.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.18.1\selenium-manager-4.18.1.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v120\4.18.1\selenium-devtools-v120-4.18.1.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v121\4.18.1\selenium-devtools-v121-4.18.1.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v122\4.18.1\selenium-devtools-v122-4.18.1.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.18.1\selenium-devtools-v85-4.18.1.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.18.1\selenium-edge-driver-4.18.1.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.18.1\selenium-firefox-driver-4.18.1.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-http\4.18.1\selenium-http-4.18.1.jar;C:\Users\Admin\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.18.1\selenium-ie-driver-4.18.1.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.18.1\selenium-remote-driver-4.18.1.jar;C:\Users\Admin\.m2\repository\com\google\guava\guava\33.0.0-jre\guava-33.0.0-jre.jar;C:\Users\Admin\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\Admin\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\Admin\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\Admin\.m2\repository\org\checkerframework\checker-qual\3.41.0\checker-qual-3.41.0.jar;C:\Users\Admin\.m2\repository\com\google\errorprone\error_prone_annotations\2.23.0\error_prone_annotations-2.23.0.jar;C:\Users\Admin\.m2\repository\com\google\j2objc\j2objc-annotations\2.8\j2objc-annotations-2.8.jar;C:\Users\Admin\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.23.1-alpha\opentelemetry-semconv-1.23.1-alpha.jar;C:\Users\Admin\.m2\repository\io\opentelemetry\opentelemetry-api\1.35.0\opentelemetry-api-1.35.0.jar;C:\Users\Admin\.m2\repository\io\opentelemetry\opentelemetry-context\1.35.0\opentelemetry-context-1.35.0.jar;C:\Users\Admin\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.35.0\opentelemetry-exporter-logging-1.35.0.jar;C:\Users\Admin\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.35.0\opentelemetry-sdk-common-1.35.0.jar;C:\Users\Admin\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.35.0\opentelemetry-sdk-extension-autoconfigure-spi-1.35.0.jar;C:\Users\Admin\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.35.0\opentelemetry-sdk-extension-autoconfigure-1.35.0.jar;C:\Users\Admin\.m2\repository\io\opentelemetry\opentelemetry-api-events\1.35.0-alpha\opentelemetry-api-events-1.35.0-alpha.jar;C:\Users\Admin\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.35.0\opentelemetry-sdk-trace-1.35.0.jar;C:\Users\Admin\.m2\repository\io\opentelemetry\opentelemetry-extension-incubator\1.35.0-alpha\opentelemetry-extension-incubator-1.35.0-alpha.jar;C:\Users\Admin\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.35.0\opentelemetry-sdk-1.35.0.jar;C:\Users\Admin\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.35.0\opentelemetry-sdk-metrics-1.35.0.jar;C:\Users\Admin\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.35.0\opentelemetry-sdk-logs-1.35.0.jar;C:\Users\Admin\.m2\repository\net\bytebuddy\byte-buddy\1.14.12\byte-buddy-1.14.12.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-os\4.18.1\selenium-os-4.18.1.jar;C:\Users\Admin\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.18.1\selenium-safari-driver-4.18.1.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-support\4.18.1\selenium-support-4.18.1.jar;C:\Users\Admin\.m2\repository\io\github\bonigarcia\webdrivermanager\5.6.3\webdrivermanager-5.6.3.jar;C:\Users\Admin\.m2\repository\org\slf4j\slf4j-api\2.0.10\slf4j-api-2.0.10.jar;C:\Users\Admin\.m2\repository\com\github\docker-java\docker-java\3.3.4\docker-java-3.3.4.jar;C:\Users\Admin\.m2\repository\com\github\docker-java\docker-java-core\3.3.4\docker-java-core-3.3.4.jar;C:\Users\Admin\.m2\repository\com\github\docker-java\docker-java-api\3.3.4\docker-java-api-3.3.4.jar;C:\Users\Admin\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.3\jackson-annotations-2.10.3.jar;C:\Users\Admin\.m2\repository\commons-io\commons-io\2.13.0\commons-io-2.13.0.jar;C:\Users\Admin\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.3\jackson-databind-2.10.3.jar;C:\Users\Admin\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.3\jackson-core-2.10.3.jar;C:\Users\Admin\.m2\repository\org\bouncycastle\bcpkix-jdk18on\1.76\bcpkix-jdk18on-1.76.jar;C:\Users\Admin\.m2\repository\org\bouncycastle\bcprov-jdk18on\1.76\bcprov-jdk18on-1.76.jar;C:\Users\Admin\.m2\repository\org\bouncycastle\bcutil-jdk18on\1.76\bcutil-jdk18on-1.76.jar;C:\Users\Admin\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\Admin\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.3.4\docker-java-transport-httpclient5-3.3.4.jar;C:\Users\Admin\.m2\repository\com\github\docker-java\docker-java-transport\3.3.4\docker-java-transport-3.3.4.jar;C:\Users\Admin\.m2\repository\net\java\dev\jna\jna\5.13.0\jna-5.13.0.jar;C:\Users\Admin\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\Admin\.m2\repository\org\apache\commons\commons-lang3\3.14.0\commons-lang3-3.14.0.jar;C:\Users\Admin\.m2\repository\org\apache\commons\commons-compress\1.25.0\commons-compress-1.25.0.jar;C:\Users\Admin\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.2.1\httpclient5-5.2.1.jar;C:\Users\Admin\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.2\httpcore5-5.2.jar;C:\Users\Admin\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.2\httpcore5-h2-5.2.jar;C:\Users\Admin\.m2\repository\org\testng\testng\7.9.0\testng-7.9.0.jar;C:\Users\Admin\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\Admin\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\Admin\.m2\repository\com\squareup\okhttp3\okhttp\4.12.0\okhttp-4.12.0.jar;C:\Users\Admin\.m2\repository\com\squareup\okio\okio\3.6.0\okio-3.6.0.jar;C:\Users\Admin\.m2\repository\com\squareup\okio\okio-jvm\3.6.0\okio-jvm-3.6.0.jar;C:\Users\Admin\.m2\repository\org\jetbrains\kotlin\kotlin-stdlib-common\1.9.10\kotlin-stdlib-common-1.9.10.jar;C:\Users\Admin\.m2\repository\org\jetbrains\kotlin\kotlin-stdlib-jdk8\1.8.21\kotlin-stdlib-jdk8-1.8.21.jar;C:\Users\Admin\.m2\repository\org\jetbrains\kotlin\kotlin-stdlib\1.8.21\kotlin-stdlib-1.8.21.jar;C:\Users\Admin\.m2\repository\org\jetbrains\annotations\13.0\annotations-13.0.jar;C:\Users\Admin\.m2\repository\org\jetbrains\kotlin\kotlin-stdlib-jdk7\1.8.21\kotlin-stdlib-jdk7-1.8.21.jar;C:\Users\Admin\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Admin"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2024-10-15"/>
+    <property name="java.home" value="C:\Users\Admin\Downloads\eclipse-java-2024-12-R-win32-x86_64\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.5.v20241023-1957\jre"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\Admin\eclipse-workspace\elpaisautomation"/>
+    <property name="style.color" value="always"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\Admin\AppData\Local\Temp\surefire9881164757209237146\surefirebooter-20260215001451774_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="21.0.5+11-LTS"/>
+    <property name="user.name" value="Admin"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="otel.metrics.exporter" value="none"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="otel.traces.exporter" value="none"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Temurin-21.0.5+11"/>
+    <property name="localRepository" value="C:\Users\Admin\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/>
+    <property name="otel.logs.exporter" value="none"/>
+    <property name="java.io.tmpdir" value="C:\Users\Admin\AppData\Local\Temp\"/>
+    <property name="java.version" value="21.0.5"/>
+    <property name="user.dir" value="C:\Users\Admin\eclipse-workspace\elpaisautomation"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Users\Admin\Downloads\eclipse-java-2024-12-R-win32-x86_64\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.5.v20241023-1957\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Users/Admin/Downloads/eclipse-java-2024-12-R-win32-x86_64/eclipse//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.5.v20241023-1957/jre/bin/server;C:/Users/Admin/Downloads/eclipse-java-2024-12-R-win32-x86_64/eclipse//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.5.v20241023-1957/jre/bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\Java\jdk-21\bin;C:\Program Files\Git\cmd;C:\Program Files\Git\bin;C:\Program Files\nodejs\;C:\Program Files\PowerShell\7\;C:\Users\Admin\Downloads\apache-maven-3.9.12-bin.zip\apache-maven-3.9.12\bin;C:\Users\Admin\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\Admin\AppData\Local\Programs\Python\Python310\;C:\Users\Admin\AppData\Local\Programs\Python\Python312\Scripts\;C:\Users\Admin\AppData\Local\Programs\Python\Python312\;C:\Users\Admin\AppData\Local\Programs\Python\Launcher\;C:\Users\Admin\AppData\Local\Microsoft\WindowsApps;C:\Users\Admin\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\JetBrains\IntelliJ IDEA 2024.1\bin;;C:\Program Files\Git\bin;C:\Users\Admin\AppData\Roaming\npm;C:\Users\Admin\Downloads\eclipse-java-2024-12-R-win32-x86_64\eclipse;;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Eclipse Adoptium"/>
+    <property name="java.vm.version" value="21.0.5+11-LTS"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="65.0"/>
+  </properties>
+  <testcase name="scrapeAndAnalyzeOpinionSection" classname="com.assignment.tests.TestSelenium" time="50.808">
+    <system-out><![CDATA[Testing on Desktop: Windows 11 - Chrome
+Testing on Desktop: OS X Monterey - Chrome
+Testing on Mobile: Google Pixel 7 - Chrome
+Testing on Desktop: OS X Monterey - Safari
+Testing on Desktop: Windows 11 - Edge
+
+======================================================================
+STARTING EL PAÍS OPINION SECTION SCRAPER
+======================================================================
+
+[1/5] Navigating to El País Opinion section...
+
+======================================================================
+STARTING EL PAÍS OPINION SECTION SCRAPER
+======================================================================
+
+[1/5] Navigating to El País Opinion section...
+
+======================================================================
+STARTING EL PAÍS OPINION SECTION SCRAPER
+======================================================================
+
+[1/5] Navigating to El País Opinion section...
+
+======================================================================
+STARTING EL PAÍS OPINION SECTION SCRAPER
+======================================================================
+
+[1/5] Navigating to El País Opinion section...
+
+[2/5] Verifying website language...
+✓ Website language detected: es-ES
+
+[3/5] Scraping articles from Opinion section...
+✓ Found 15 total articles on page
+
+----------------------------------------------------------------------
+ARTICLE #1
+----------------------------------------------------------------------
+Spanish Title: Competitividad desde el realismo
+Spanish Content: La propuesta de ‘comprar europeo’ resulta acertada si se limita a sectores estratégicos donde exista una dependencia exterior
+✗ No cover image available for this article
+
+----------------------------------------------------------------------
+ARTICLE #2
+----------------------------------------------------------------------
+Spanish Title: Anexión ilegal de Cisjordania
+Spanish Content: El Gobierno de Netanyahu avanza en su proyecto de anular cualquier viabilidad del territorio palestino ante la pasividad internacional
+✗ No cover image available for this article
+
+----------------------------------------------------------------------
+ARTICLE #3
+----------------------------------------------------------------------
+Spanish Title: La regularización es solo el principio
+✗ No cover image available for this article
+
+----------------------------------------------------------------------
+ARTICLE #4
+----------------------------------------------------------------------
+Spanish Title: Cipayuso
+✗ No cover image available for this article
+
+----------------------------------------------------------------------
+ARTICLE #5
+----------------------------------------------------------------------
+Spanish Title: PP y PSOE enamorados (o el milagro de San Valentín)
+✗ No cover image available for this article
+
+✓ Successfully scraped 5 articles
+
+[4/5] Translating article headers to English...
+(Using Google Translate API via RapidAPI - waiting 15 seconds between calls)
+
+Translating article #1...
+  Original (ES): Competitividad desde el realismo
+
+======================================================================
+STARTING EL PAÍS OPINION SECTION SCRAPER
+======================================================================
+
+[1/5] Navigating to El País Opinion section...
+  Translated (EN): Competitiveness from realism
+
+⏳ Waiting 15 seconds before next translation...
+
+[2/5] Verifying website language...
+✓ Website language detected: es-ES
+
+[3/5] Scraping articles from Opinion section...
+✓ Found 15 total articles on page
+
+----------------------------------------------------------------------
+ARTICLE #1
+----------------------------------------------------------------------
+Spanish Title: Competitividad desde el realismo
+Spanish Content: La propuesta de ‘comprar europeo’ resulta acertada si se limita a sectores estratégicos donde exista una dependencia exterior 
+✗ No cover image available for this article
+
+----------------------------------------------------------------------
+ARTICLE #2
+----------------------------------------------------------------------
+Spanish Title: Anexión ilegal de Cisjordania
+Spanish Content: El Gobierno de Netanyahu avanza en su proyecto de anular cualquier viabilidad del territorio palestino ante la pasividad internacional
+✗ No cover image available for this article
+
+----------------------------------------------------------------------
+ARTICLE #3
+----------------------------------------------------------------------
+Spanish Title: Feminismo de escalera plegable
+Spanish Content: La memoria de las mujeres no puede construirse sobre la desmemoria o sobre cambios simplemente nominalistas 
+✗ No cover image available for this article
+
+----------------------------------------------------------------------
+ARTICLE #4
+----------------------------------------------------------------------
+Spanish Title: Agrupémonos todos
+Spanish Content: Las fuerzas progresistas se pelean con saña hasta que el triunfo del enemigo contra el que no supieron unirse les descubre que tienen en común la cárcel, la persecución, el exilio
+✓ Downloaded: article_4_image.jpg
+
+----------------------------------------------------------------------
+ARTICLE #5
+----------------------------------------------------------------------
+Spanish Title: ‘Termodinámica de un beso’
+
+[2/5] Verifying website language...
+Spanish Content: Donde todo se muestra, la seducción desaparece.  La fantasía necesita de lo desconocido, de aquello que no se entrega por completo a la mirada. El beso se vuelve rastro de una huella de calor, a través de una cámara que no capta la luz visible sino la irradiación térmica.  Estas imágenes hablan de lo invisible: de aquello que la fotografía apenas puede rozar y no puede poseer. En un mundo saturado de imágenes nítidas y relatos cerrados, el beso, el gesto de amor, aparece aquí como una forma de resistencia
+✓ Website language detected: es-ES
+
+[3/5] Scraping articles from Opinion section...
+✓ Downloaded: article_5_image.jpg
+
+✓ Successfully scraped 5 articles
+
+[4/5] Translating article headers to English...
+(Using Google Translate API via RapidAPI - waiting 15 seconds between calls)
+
+Translating article #1...
+  Original (ES): Competitividad desde el realismo
+✓ Found 15 total articles on page
+
+----------------------------------------------------------------------
+ARTICLE #1
+----------------------------------------------------------------------
+Spanish Title: Competitividad desde el realismo
+  Translated (EN): Competitiveness from realism
+
+⏳ Waiting 15 seconds before next translation...
+
+[2/5] Verifying website language...
+Spanish Content: La propuesta de ‘comprar europeo’ resulta acertada si se limita a sectores estratégicos donde exista una dependencia exterior
+✓ Website language detected: es-ES
+
+[3/5] Scraping articles from Opinion section...
+✗ No cover image available for this article
+✓ Found 15 total articles on page
+
+----------------------------------------------------------------------
+ARTICLE #1
+----------------------------------------------------------------------
+Spanish Title: Competitividad desde el realismo
+
+----------------------------------------------------------------------
+ARTICLE #2
+----------------------------------------------------------------------
+Spanish Title: Anexión ilegal de Cisjordania
+Spanish Content: La propuesta de ‘comprar europeo’ resulta acertada si se limita a sectores estratégicos donde exista una dependencia exterior
+✗ No cover image available for this article
+Spanish Content: El Gobierno de Netanyahu avanza en su proyecto de anular cualquier viabilidad del territorio palestino ante la pasividad internacional
+
+----------------------------------------------------------------------
+ARTICLE #2
+----------------------------------------------------------------------
+Spanish Title: Anexión ilegal de Cisjordania
+Spanish Content: El Gobierno de Netanyahu avanza en su proyecto de anular cualquier viabilidad del territorio palestino ante la pasividad internacional
+✗ No cover image available for this article
+✗ No cover image available for this article
+
+----------------------------------------------------------------------
+ARTICLE #3
+----------------------------------------------------------------------
+Spanish Title: La regularización es solo el principio
+✗ No cover image available for this article
+
+----------------------------------------------------------------------
+ARTICLE #4
+----------------------------------------------------------------------
+Spanish Title: Cipayuso
+✗ No cover image available for this article
+
+----------------------------------------------------------------------
+ARTICLE #5
+----------------------------------------------------------------------
+Spanish Title: PP y PSOE enamorados (o el milagro de San Valentín)
+
+----------------------------------------------------------------------
+ARTICLE #3
+----------------------------------------------------------------------
+Spanish Title: La regularización es solo el principio
+✗ No cover image available for this article
+
+✓ Successfully scraped 5 articles
+
+[4/5] Translating article headers to English...
+(Using Google Translate API via RapidAPI - waiting 15 seconds between calls)
+
+Translating article #1...
+  Original (ES): Competitividad desde el realismo
+✗ No cover image available for this article
+
+----------------------------------------------------------------------
+ARTICLE #4
+----------------------------------------------------------------------
+Spanish Title: Cipayuso
+  Translated (EN): Competitiveness from realism
+
+⏳ Waiting 15 seconds before next translation...
+✗ No cover image available for this article
+
+----------------------------------------------------------------------
+ARTICLE #5
+----------------------------------------------------------------------
+Spanish Title: PP y PSOE enamorados (o el milagro de San Valentín)
+✗ No cover image available for this article
+
+✓ Successfully scraped 5 articles
+
+[4/5] Translating article headers to English...
+(Using Google Translate API via RapidAPI - waiting 15 seconds between calls)
+
+Translating article #1...
+  Original (ES): Competitividad desde el realismo
+
+[2/5] Verifying website language...
+✓ Website language detected: es-ES
+
+[3/5] Scraping articles from Opinion section...
+✓ Found 15 total articles on page
+
+----------------------------------------------------------------------
+ARTICLE #1
+----------------------------------------------------------------------
+Spanish Title: Competitividad desde el realismo
+  Translated (EN): Competitiveness from realism
+
+⏳ Waiting 15 seconds before next translation...
+Spanish Content: La propuesta de ‘comprar europeo’ resulta acertada si se limita a sectores estratégicos donde exista una dependencia exterior
+✗ No cover image available for this article
+
+----------------------------------------------------------------------
+ARTICLE #2
+----------------------------------------------------------------------
+Spanish Title: Anexión ilegal de Cisjordania
+Spanish Content: El Gobierno de Netanyahu avanza en su proyecto de anular cualquier viabilidad del territorio palestino ante la pasividad internacional
+✗ No cover image available for this article
+
+----------------------------------------------------------------------
+ARTICLE #3
+----------------------------------------------------------------------
+Spanish Title: Feminismo de escalera plegable
+Spanish Content: La memoria de las mujeres no puede construirse sobre la desmemoria o sobre cambios simplemente nominalistas
+✗ No cover image available for this article
+
+Translating article #2...
+  Original (ES): Anexión ilegal de Cisjordania
+
+✓ Successfully scraped 3 articles
+
+[4/5] Translating article headers to English...
+(Using Google Translate API via RapidAPI - waiting 15 seconds between calls)
+
+Translating article #1...
+  Original (ES): Competitividad desde el realismo
+  Translated (EN): Illegal annexation of the West Bank
+
+⏳ Waiting 15 seconds before next translation...
+  Translated (EN): Competitiveness from realism
+
+⏳ Waiting 15 seconds before next translation...
+
+Translating article #2...
+  Original (ES): Anexión ilegal de Cisjordania
+  Translated (EN): Illegal annexation of the West Bank
+
+⏳ Waiting 15 seconds before next translation...
+
+Translating article #2...
+  Original (ES): Anexión ilegal de Cisjordania
+  Translated (EN): Illegal annexation of the West Bank
+
+⏳ Waiting 15 seconds before next translation...
+
+Translating article #2...
+  Original (ES): Anexión ilegal de Cisjordania
+  Translated (EN): Illegal annexation of the West Bank
+
+⏳ Waiting 15 seconds before next translation...
+
+Translating article #3...
+  Original (ES): La regularización es solo el principio
+
+Translating article #2...
+  Original (ES): Anexión ilegal de Cisjordania
+  Translated (EN): Regularization is just the beginning
+
+⏳ Waiting 15 seconds before next translation...
+  Translated (EN): Illegal annexation of the West Bank
+
+⏳ Waiting 15 seconds before next translation...
+
+Translating article #3...
+  Original (ES): Feminismo de escalera plegable
+  Translated (EN): Folding ladder feminism
+
+⏳ Waiting 15 seconds before next translation...
+
+Translating article #3...
+  Original (ES): La regularización es solo el principio
+  Translated (EN): Regularization is just the beginning
+
+⏳ Waiting 15 seconds before next translation...
+
+Translating article #3...
+  Original (ES): La regularización es solo el principio
+  Translated (EN): Regularization is just the beginning
+
+⏳ Waiting 15 seconds before next translation...
+
+Translating article #4...
+  Original (ES): Cipayuso
+
+Translating article #3...
+  Original (ES): Feminismo de escalera plegable
+  Translated (EN): Sepoyuso
+
+⏳ Waiting 15 seconds before next translation...
+  Translated (EN): Folding ladder feminism
+
+✓ Translation complete!
+
+[5/5] Analyzing translated headers for word frequency...
+
+======================================================================
+WORD FREQUENCY ANALYSIS
+Words repeated MORE than 2 times across all headers:
+======================================================================
+  No words repeated more than 2 times.
+======================================================================
+
+======================================================================
+TEST COMPLETED SUCCESSFULLY!
+======================================================================
+
+]]></system-out>
+    <system-err><![CDATA[SLF4J(W): No SLF4J providers were found.
+SLF4J(W): Defaulting to no-operation (NOP) logger implementation
+SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
+Feb 15, 2026 12:14:53 AM org.openqa.selenium.remote.tracing.opentelemetry.OpenTelemetryTracer createTracer
+INFO: Using OpenTelemetry for tracing
+]]></system-err>
+  </testcase>
+  <testcase name="scrapeAndAnalyzeOpinionSection" classname="com.assignment.tests.TestSelenium" time="66.738">
+    <system-out><![CDATA[
+Translating article #4...
+  Original (ES): Agrupémonos todos
+  Translated (EN): Let's all group together
+
+⏳ Waiting 15 seconds before next translation...
+
+Translating article #4...
+  Original (ES): Cipayuso
+  Translated (EN): Sepoyuso
+
+⏳ Waiting 15 seconds before next translation...
+
+Translating article #4...
+  Original (ES): Cipayuso
+  Translated (EN): Sepoyuso
+
+⏳ Waiting 15 seconds before next translation...
+
+Translating article #5...
+  Original (ES): PP y PSOE enamorados (o el milagro de San Valentín)
+  Translated (EN): PP and PSOE in love (or the miracle of Valentine's Day)
+
+✓ Translation complete!
+
+[5/5] Analyzing translated headers for word frequency...
+
+======================================================================
+WORD FREQUENCY ANALYSIS
+Words repeated MORE than 2 times across all headers:
+======================================================================
+  'the' - appears 3 times
+======================================================================
+
+======================================================================
+TEST COMPLETED SUCCESSFULLY!
+======================================================================
+
+]]></system-out>
+  </testcase>
+  <testcase name="scrapeAndAnalyzeOpinionSection" classname="com.assignment.tests.TestSelenium" time="69.126">
+    <system-out><![CDATA[
+Translating article #5...
+  Original (ES): ‘Termodinámica de un beso’
+  Translated (EN): 'Thermodynamics of a kiss'
+
+✓ Translation complete!
+
+[5/5] Analyzing translated headers for word frequency...
+
+======================================================================
+WORD FREQUENCY ANALYSIS
+Words repeated MORE than 2 times across all headers:
+======================================================================
+  No words repeated more than 2 times.
+======================================================================
+
+======================================================================
+TEST COMPLETED SUCCESSFULLY!
+======================================================================
+
+]]></system-out>
+  </testcase>
+  <testcase name="scrapeAndAnalyzeOpinionSection" classname="com.assignment.tests.TestSelenium" time="73.127">
+    <system-out><![CDATA[
+Translating article #5...
+  Original (ES): PP y PSOE enamorados (o el milagro de San Valentín)
+  Translated (EN): PP and PSOE in love (or the miracle of Valentine's Day)
+
+✓ Translation complete!
+
+[5/5] Analyzing translated headers for word frequency...
+
+======================================================================
+WORD FREQUENCY ANALYSIS
+Words repeated MORE than 2 times across all headers:
+======================================================================
+  'the' - appears 3 times
+======================================================================
+
+======================================================================
+TEST COMPLETED SUCCESSFULLY!
+======================================================================
+
+]]></system-out>
+  </testcase>
+  <testcase name="scrapeAndAnalyzeOpinionSection" classname="com.assignment.tests.TestSelenium" time="76.708">
+    <system-out><![CDATA[
+Translating article #5...
+  Original (ES): PP y PSOE enamorados (o el milagro de San Valentín)
+  Translated (EN): PP and PSOE in love (or the miracle of Valentine's Day)
+
+✓ Translation complete!
+
+[5/5] Analyzing translated headers for word frequency...
+
+======================================================================
+WORD FREQUENCY ANALYSIS
+Words repeated MORE than 2 times across all headers:
+======================================================================
+  'the' - appears 3 times
+======================================================================
+
+======================================================================
+TEST COMPLETED SUCCESSFULLY!
+======================================================================
+
+]]></system-out>
+  </testcase>
+</testsuite>
